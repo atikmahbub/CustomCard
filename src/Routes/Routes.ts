@@ -9,7 +9,7 @@ const Contact = lazy(()=>import('../Views/Contact/Contact'))
 
 export const Routes = [
     { pathname: '/', component: Home },
-    { pathname: '/cotact', component: Contact },
+    { pathname: '/contact', component: Contact },
     { pathname: '/faq', component: Faq },
     { pathname: '/order', component: Order },
     { pathname: '/work', component: Work },

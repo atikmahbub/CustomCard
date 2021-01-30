@@ -1,20 +1,31 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
-    position: fixed;
+    position: absolute;
     width: 36px;
     height: 30px;
     right: 36px;
     top: 36px;
+    
   }
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #EDC438;
+    background: #EFE436;
+    height: 1px !important;
+  }
+
+  .bm-burger-bars:nth-child(2){
+    width: 70% !important;
+    margin-left: auto;
   }
   
+  .bm-burger-bars:nth-child(3){
+    width: 50% !important;
+    margin-left: auto;
+  }
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background : #FFD700;
+    background : #EFE436;
   }
   
   /* Position and sizing of clickable cross button */
@@ -81,14 +92,17 @@
 
 .logo-image{
       position: absolute;
-      left: 10;
-      top: 20;
+      left: 0;
+      top: 0;
+      margin : 15px 10px;
+      max-width: 300px;
+      
   }
 
 .menu-bar{
   width: 15px;
   height: 2px;
-  background-color: #EED069;
+  background-color: #EFE436;
   display: inline-block;
   margin-right: 15px;
   vertical-align: middle;
@@ -99,3 +113,7 @@
   text-decoration: none;
 }
 
+.menu-item a:hover{
+  text-decoration: none !important;
+  color: #ffffff;
+}

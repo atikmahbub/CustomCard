@@ -1,0 +1,87 @@
+.contact-container{
+    padding: 40px;
+    margin-top: 10px;
+}
+
+.contact-header{
+    font-size: 2.5rem;
+    color: #e2dcdc;
+    font-weight: 900;
+
+}
+
+.contact-header:before {
+    background-color: #EFE436;
+    border-radius: 0.25rem;
+    content: '';
+    display: block;
+    height: 0.20rem;
+    width: 70px;
+    margin-bottom: .5rem;
+    animation-name: move ;
+    animation-duration: 1s;
+}
+
+@keyframes move {
+    from {
+        width:0px;
+    }
+    to {
+        width: 70px
+    }
+}
+
+.contact-left{
+    margin-top: 7px;
+    
+}
+
+.contact-right{
+    margin-top: 6px;
+    padding-left: 20px;
+}
+
+.address-header{
+    font-size: 1.7rem;
+    color: #EFE436;
+    font-weight: 900;
+    margin-bottom: 7px;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #efe3364d;
+    display: block;
+}
+
+.address-item{
+    font-size: 1.1rem;
+    color: aliceblue;
+    display: block;
+    padding: 5px 5px 5px 0;
+    font-weight: 300;
+}
+
+
+
+
+.social-div{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.social-icon{
+    color: #e2dcdc;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #f5ec6e;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.social-icon:hover{
+    color: #000000;
+    background-color: #EFE436;
+}
